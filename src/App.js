@@ -1,16 +1,10 @@
 import React from 'react';
-import { Header,Content,Footer } from './func-components'
-import Calendar from './class-components'
+import {Caluculator2} from './caluculator'
 
 
 function App() {
-  return (
-    <>
-    <Header />
-    <p><center><Calendar/></center></p>
-    <Content />
-    <Footer />
-    </>
-  );
+  
+  return <Caluculator2/>
+
 }
 export default App;
